@@ -1,0 +1,16 @@
+metadata:
+    name: prepar test
+    format: "Lava-Test-Shell Test Definition 1.0"
+    description: "Prepar for extend tests"
+    maintainer:
+        - duep.fnst@fujitsu.com
+    os:
+        - openembedded
+    scope:
+        - functional
+params:
+  DEVICE_TAGS: ""
+
+run:
+    steps:
+        - "./prepar-test-simple.sh"
