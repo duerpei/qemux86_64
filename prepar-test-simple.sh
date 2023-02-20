@@ -17,6 +17,7 @@ rpm -ivh --force python3-pytest-7.1.1-r0.corei7_64.rpm
 
 rpm -ivh --force python3-markupsafe-2.1.1-r0.corei7_64.rpm
 rpm -ivh --force python3-jinja2-3.1.1-r0.corei7_64.rpm
+rpm -ivh --force python3-pytest-order-1.0.1-r0.corei7_64.rpm
 
 rpm -ivh --force agl-test-framework-1-r0.corei7_64.rpm
 
