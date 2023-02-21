@@ -1,0 +1,16 @@
+metadata:
+    name: debug test
+    format: "Lava-Test-Shell Test Definition 1.0"
+    description: "Debug for extend tests"
+    maintainer:
+        - duep.fnst@fujitsu.com
+    os:
+        - openembedded
+    scope:
+        - functional
+params:
+  DEVICE_TAGS: ""
+
+run:
+    steps:
+        - "./debug.sh"
