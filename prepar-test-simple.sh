@@ -22,10 +22,12 @@ rpm -ivh --force python3-pytest-order-1.0.1-r0.corei7_64.rpm
 rpm -ivh --force agl-test-framework-1-r0.corei7_64.rpm
 
 cd /usr/AGL/agl-test/tests/
-rm -rf LTP aio_stress bash busybox bzip2 expat crashme gdk_pixbuf glib2 libpam libxml2 openssl python3 zlib stress_ng
+rm -rf LTP aio_stress bc busybox bzip2 expat crashme gdk_pixbuf glib2 libpam libxml2 openssl python3 zlib stress_ng
 
 mkdir -p /var/run/agl-test/logs/log-to-report/
 
 ls /usr/AGL/agl-test/
 ls /usr/AGL/agl-test/tests/
 ls /usr/AGL/agl-test/plugins/
+
+ptest-runner -l
