@@ -23,6 +23,9 @@ rpm -ivh --force agl-test-framework-1-r0.corei7_64.rpm
 
 mkdir -p /var/run/agl-test/logs/log-to-report/
 
+cd /usr/AGL/agl-test/tests/
+rm -rf LTP
+
 ls /usr/AGL/agl-test/
 ls /usr/AGL/agl-test/tests/
 ls /usr/AGL/agl-test/plugins/
